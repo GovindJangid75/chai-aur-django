@@ -8,3 +8,6 @@ def index(request):
 
 def contact(request):
     return HttpResponse("Hello, world. You're at the chaiaurdjango contact.")
+
+def login(request):
+    return HttpResponse("Hello, world. You're at the chaiaurdjango login page.")
